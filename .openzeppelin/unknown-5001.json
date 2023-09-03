@@ -1,0 +1,250 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x17cb4627702C6ebc681c5FAB7AD3c11aB78A8239",
+    "txHash": "0xc59dee3e91e01161a9ff75897db115834155a653a27736769acdcf18aa420abe"
+  },
+  "proxies": [
+    {
+      "address": "0x68858e4Ed0D32f8D104a785C0F3351e345d23a93",
+      "txHash": "0xcfb701df69e40234a03ece4e99c3d501d1887097343f49bd1f635422021eda1e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "2a7b76cef200498d426e7b5c30b9aa7da77b37450d5ad3294a91ec815ed837e7": {
+      "address": "0xA8A728fD167938e662618231a7256A5E0096dbfb",
+      "txHash": "0x018f9568a70f9ae09e9ef6d471d8b94b4f0d2eb1ec2091bb78fed05111edfabd",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC165Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:41"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_roles",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)34_storage)",
+            "contract": "AccessControlUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:62"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "AccessControlUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:260"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_struct(Counter)1577_storage",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:28"
+          },
+          {
+            "label": "couples",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_mapping(t_address,t_array(t_address)dyn_storage)",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:30"
+          },
+          {
+            "label": "likes",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_mapping(t_address,t_array(t_address)dyn_storage)",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:32"
+          },
+          {
+            "label": "profiles",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_mapping(t_address,t_struct(Profile)4190_storage)",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:34"
+          },
+          {
+            "label": "profilesArray",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_array(t_struct(Profile)4190_storage)dyn_storage",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:36"
+          },
+          {
+            "label": "feeReceiver",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_address",
+            "contract": "DateProcessor",
+            "src": "contracts/DateProcessor.sol:38"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Profile)4190_storage)dyn_storage": {
+            "label": "struct IDateProcessor.Profile[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_address)dyn_storage)": {
+            "label": "mapping(address => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Profile)4190_storage)": {
+            "label": "mapping(address => struct IDateProcessor.Profile)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)34_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1577_storage": {
+            "label": "struct CountersUpgradeable.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Profile)4190_storage": {
+            "label": "struct IDateProcessor.Profile",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "age",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "telegramLink",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(RoleData)34_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
